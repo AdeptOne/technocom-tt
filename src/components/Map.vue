@@ -3,7 +3,7 @@
 </template>
 
 <script setup lang="ts">
-import { onBeforeUpdate, onMounted, reactive, watch, watchEffect } from 'vue'
+import { onMounted, reactive, watchEffect } from 'vue'
 import { Map, View } from 'ol'
 import TileLayer from 'ol/layer/Tile'
 import OSM from 'ol/source/OSM'
