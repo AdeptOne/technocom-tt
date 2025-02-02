@@ -9,7 +9,7 @@ import { useRouter } from 'vue-router'
 
 const session = useSession()
 const router = useRouter()
-const isInvalid: Ref<Boolean> = ref(false)
+const isInvalid: Ref<boolean> = ref(false)
 
 const resolver = zodResolver(
   z.object({
